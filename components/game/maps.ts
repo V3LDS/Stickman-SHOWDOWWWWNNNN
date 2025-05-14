@@ -2392,7 +2392,7 @@ export const MAPS: MapConfig[] = [
     },
 
     drawMapEffects: (ctx, frameCount, mapEffects) => {
-      const { fogParticles, flickeringLights, ghosts, hauntedPortraits } = mapEffects
+      const { ghosts, fogParticles, flickeringLights, hauntedPortraits } = mapEffects
 
       // Draw haunted mansion background
       // Main mansion structure
